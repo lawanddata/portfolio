@@ -2688,6 +2688,11 @@ input, select, textarea {
 		width: calc(100% - 35%);
 	}
 
+	#main strong, #main b {
+			color: #00003f;
+			font-weight: 1000;
+		}
+
 		#main > section {
 			border-top: solid 2px #efefef;
 			margin: 4em 0 0 0;
