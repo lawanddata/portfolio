@@ -724,14 +724,14 @@ input, select, textarea {
 						.row.gtr-50.gtr-uniform > * {
 							padding-top: 1.25em;
 						}
-
+					/*next rows were changed to reduce margins of visuals*/
 				.row {
 					margin-top: 0;
-					margin-left: -2.5em;
+					margin-left: 0em;
 				}
 
 					.row > * {
-						padding: 0 0 0 2.5em;
+						padding: 0 0 0 0em;
 					}
 
 					.row.gtr-uniform {
@@ -2050,7 +2050,7 @@ input, select, textarea {
 			-ms-transition: opacity 0.2s ease-in-out;
 			transition: opacity 0.2s ease-in-out;
 			background: url("images/overlay.png");
-			border-radius: 0.35em;
+			border-radius: 0em;
 			content: '';
 			display: block;
 			height: 100%;
@@ -2070,7 +2070,7 @@ input, select, textarea {
 				-webkit-transition: opacity 0.2s ease-in-out;
 				-ms-transition: opacity 0.2s ease-in-out;
 				transition: opacity 0.2s ease-in-out;
-				border-radius: 0.35em;
+				border-radius: 0em;
 				border: solid 3px rgba(255, 255, 255, 0.5);
 				color: #fff;
 				content: 'View';
@@ -2095,11 +2095,11 @@ input, select, textarea {
 
 			.image.thumb:hover:before {
 				background: url("images/overlay.png"), url("images/overlay.png");
-				opacity: 1.0;
+				opacity: 0.3;
 			}
 
 		.image img {
-			border-radius: 0.35em;
+			border-radius: 0em;
 			display: block;
 		}
 
@@ -2593,7 +2593,7 @@ input, select, textarea {
 		justify-content: space-between;
 		background-color: #1f1815;
 		background-attachment: scroll,								scroll;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+		background-image: url("images/overlay.png"), url("../../images/bg6.jpg");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								150%;
@@ -2689,7 +2689,7 @@ input, select, textarea {
 	}
 
 	#main strong, #main b {
-			color: #00003f;
+			color: #4d708e;
 			font-weight: 1000;
 		}
 
